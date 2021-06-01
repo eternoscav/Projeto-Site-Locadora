@@ -1,0 +1,23 @@
+m2.swf Movie Report
+--------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          23257          23257    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0         18233                     0
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+but                                    0             0                     0
+detonado                               0             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Arial Bold                     4974     !&'()+,-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdeghijklmnoprstuxy¢´µÁÃÇÉÒàâåéï€
+
+
+
+

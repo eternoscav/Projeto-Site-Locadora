@@ -1,0 +1,56 @@
+body{
+margin:0px;
+}
+form{
+display:inline;
+}
+.caixa{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+}
+.texto{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+}
+.texto_rodape{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#52585c;
+text-align:left;
+text-decoration:none;
+padding-left:12px;
+}
+.texto_rodape01{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+color:#FFFFFF;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+}
+.texto_conteudo{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+padding-left:12px;
+padding-right:10px;
+text-align:left;
+text-decoration:none;
+}
+.texto_linkcentro{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+text-align:center;
+text-decoration:none;
+}
+.texto_linkcentro:hover{
+text-decoration:underline;
+}
+.titulo{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#333333;
+}

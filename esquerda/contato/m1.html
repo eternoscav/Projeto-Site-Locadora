@@ -1,0 +1,117 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>contato</title>
+<script language=JavaScript>
+<!-- START RIGHT CLICK -->
+var message="";
+
+	function clickIE() {if (document.all) {(message);return false;}}
+	function clickNS(e) {if 
+		(document.layers||(document.getElementById&&!document.all)) {
+		if (e.which==2||e.which==3) {(message);return false;}}}
+		if (document.layers) 
+		{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+	else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+	document.oncontextmenu=new Function("return false")
+// --> 
+<!-- END RIGHT CLICK -->
+
+<!-- START STATUS BAR -->
+	function hidestatus(){
+		window.status=''
+		return true
+	}
+
+	if (document.layers)
+	document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+
+	document.onmouseover=hidestatus
+	document.onmouseout=hidestatus
+<!-- END STATUS BAR -->
+
+<!-- START STATUS BAR -->
+	function hidestatus(){
+		window.status=''
+		return true
+	}
+
+	if (document.layers)
+	document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+
+	document.onmouseover=hidestatus
+	document.onmouseout=hidestatus
+<!-- END STATUS BAR -->
+
+
+<!-- START UNSELECTED TEXT -->
+function disableselect(e){
+return false
+}
+
+function reEnable(){
+return true
+}
+
+//if IE4+
+document.onselectstart=new Function ("return false")
+
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+<!-- END UNSELECTED TEXT -->
+
+
+<!-- START DISABLE F11 KEY -->
+function CheckMyKeys(){ 
+var key = event.keyCode; 
+if (key==122){ 
+return cancel(); 
+} 
+// Inline cancel function 
+function cancel(){ 
+event.cancelBubble=true; 
+event.keyCode=0; 
+return false 
+} 
+} 
+document.onkeydown = CheckMyKeys 
+<!-- END DISABLE F11 KEY -->
+</script>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+
+<div align="left">
+ <!--url's used in the movie-->
+ <!--text used in the movie-->
+ <!-- saved from url=(0013)about:internet -->
+ <table width="439" border="0">
+  <tr>
+   <th width="32" scope="row">&nbsp;</th>
+   <td width="397">    
+    <script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0','name','contato','width','360','height','348','align','middle','id','contato','src','contato','quality','high','bgcolor','#ffffff','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','contato' ); //end AC code
+	}
+     </script>
+    <noscript>
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" name="contato" width="360" height="348" align="middle" id="contato">
+     <param name="allowScriptAccess" value="sameDomain" />
+     <param name="allowFullScreen" value="false" />
+     <param name="movie" value="contato.swf" />
+     <param name="quality" value="high" />
+     <param name="bgcolor" value="#ffffff" />
+     <embed src="contato.swf" quality="high" bgcolor="#ffffff" width="360" height="348" name="contato" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                     
+    </object>
+    </noscript>   </td>
+  </tr>
+   </table>
+</div>
+</body>
+</html>
